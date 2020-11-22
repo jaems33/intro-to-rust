@@ -48,6 +48,6 @@ fn main() {
   println!("str_slice_example: {}", str_slice_example);
 
   // Slices can be used on parts of an array too
-  let scores: [i32; 10] = [39, 59, 78, 92, 29, 40, 59, 39, 39, 19];
-  let _array_slice = &scores[..3];
+  let coordinates = [489.4, 10.38, 2.28];
+  let _x_y = &coordinates[..2];
 }
