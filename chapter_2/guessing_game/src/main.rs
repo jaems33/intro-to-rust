@@ -7,8 +7,6 @@ fn main() {
 
   let secret_number = thread_rng().gen_range(0, 101);
   
-  //println!("The secret number is: {}", secret_number);
-
   loop {
     let mut guess = String::new();
     println!("Input your guess:");
